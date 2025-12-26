@@ -19,13 +19,12 @@
 
 
       <nav class="hidden md:flex gap-8 text-sm font-medium">
-        <a href="#services" class="hover:text-slate-600">Services</a>
-        <a href="#process" class="hover:text-slate-600">Process</a>
-        <a href="case study.html" class="hover:text-slate-600">Case Studies</a>
-        <a href="#about" class="hover:text-slate-600">About</a>
-      </nav>
-
-      </nav>
+  <a href="#services" class="hover:text-slate-600">Services</a>
+  <a href="#process" class="hover:text-slate-600">How It Works</a>
+  <a href="case study.html" class="hover:text-slate-600">Case Studies</a>
+  <a href="#about" class="hover:text-slate-600">About</a>
+  <a href="#offer" class="hover:text-slate-600">Offer</a> <!-- Add this line -->
+</nav>
       <div class="flex gap-4">
         <button id="openLoginBtn"
           class="border border-slate-300 text-slate-900 px-5 py-2 rounded-md hover:bg-slate-50 transition">
@@ -172,6 +171,68 @@
       </div>
     </div>
   </section>
+  
+
+      <!-- ================= OFFER ================= -->
+<section id="offer" class="py-24 bg-slate-50 scroll-mt-24">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <h3 class="text-4xl font-bold">Our Offerings</h3>
+    <p class="mt-4 text-slate-600 max-w-3xl mx-auto">
+      Choose a package that fits your business goals. Each plan is designed to accelerate growth efficiently.
+    </p>
+
+    <div class="mt-16 grid md:grid-cols-3 gap-8">
+      <!-- Package 1: Starter Plan -->
+      <div class="p-8 border rounded-2xl bg-white shadow hover:shadow-lg transition flex flex-col gap-4">
+        <h4 class="text-xl font-semibold text-slate-900">Starter Plan</h4>
+        <p class="text-slate-600 text-sm">For small startups to get started with growth-focused strategies.</p>
+        <p class="text-3xl font-bold text-slate-900 mt-4">$499<span class="text-base font-normal text-slate-600">/month</span></p>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600 text-left">
+          <li>CRM Setup</li>
+          <li>Basic Marketing Automation</li>
+          <li>Monthly Analytics Report</li>
+        </ul>
+        <button onclick="document.getElementById('openLoginBtn').click()"
+                class="mt-6 bg-slate-900 text-white px-6 py-3 rounded-md hover:bg-slate-800 transition">
+          Choose Plan
+        </button>
+      </div>
+
+      <!-- Package 2: Growth Plan -->
+      <div class="p-8 border rounded-2xl bg-white shadow hover:shadow-lg transition flex flex-col gap-4">
+        <h4 class="text-xl font-semibold text-slate-900">Growth Plan</h4>
+        <p class="text-slate-600 text-sm">For growing businesses looking to scale with automation & insights.</p>
+        <p class="text-3xl font-bold text-slate-900 mt-4">$999<span class="text-base font-normal text-slate-600">/month</span></p>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600 text-left">
+          <li>Advanced CRM Integration</li>
+          <li>Email & Social Automation</li>
+          <li>Bi-weekly Analytics & Insights</li>
+        </ul>
+        <button onclick="document.getElementById('openLoginBtn').click()"
+                class="mt-6 bg-slate-900 text-white px-6 py-3 rounded-md hover:bg-slate-800 transition">
+          Choose Plan
+        </button>
+      </div>
+
+      <!-- Package 3: Pro Plan -->
+      <div class="p-8 border rounded-2xl bg-white shadow hover:shadow-lg transition flex flex-col gap-4">
+        <h4 class="text-xl font-semibold text-slate-900">Pro Plan</h4>
+        <p class="text-slate-600 text-sm">For established businesses aiming for maximum growth and ROI.</p>
+        <p class="text-3xl font-bold text-slate-900 mt-4">$1999<span class="text-base font-normal text-slate-600">/month</span></p>
+        <ul class="mt-4 space-y-2 text-sm text-slate-600 text-left">
+          <li>Full CRM + Custom Automation</li>
+          <li>Multi-channel Campaign Management</li>
+          <li>Weekly Strategy & Reporting</li>
+        </ul>
+        <button onclick="document.getElementById('openLoginBtn').click()"
+                class="mt-6 bg-slate-900 text-white px-6 py-3 rounded-md hover:bg-slate-800 transition">
+          Choose Plan
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- ================= HOW IT WORKS ================= -->
   <section id="process" class="py-24 bg-slate-50 scroll-mt-24">
